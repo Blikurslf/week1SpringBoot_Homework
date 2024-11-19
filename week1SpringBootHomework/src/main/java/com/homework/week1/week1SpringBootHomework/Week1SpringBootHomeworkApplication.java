@@ -17,6 +17,6 @@ public class Week1SpringBootHomeworkApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		cakeBaker.bakeCake();
+		System.out.println(cakeBaker.bakeCake());
 	}
 }
